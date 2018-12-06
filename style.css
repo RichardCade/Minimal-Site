@@ -1,0 +1,188 @@
+/* MNML WEBSITE STYLES */
+
+body {
+    background: url('img/background.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 14px;
+}
+
+#container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: solid 1px white;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #f8fa6a;
+}
+
+#tagline {
+    text-align: center;
+    margin: 50px 0 0;
+}
+
+#tagline h1 {
+    margin-bottom: 160px;
+}
+
+#tagline h1 em {
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+}
+
+a.button {
+    display: block;
+    height: 86px;
+    width: 305px;
+    background: url('img/button-background.png') top left no-repeat;
+    margin: 0 auto;
+    color: black;
+    font-size: 18px;
+    line-height: 65px;
+}
+
+a.button:hover {
+    color: white;
+    text-shadow: 0 1px 5px #333;
+}
+
+a.button:active {
+    position: relative;
+    top: 1px;
+}
+
+/* STORE PAGE STYLING*/
+
+#storeContainer {
+    margin-top: 50px;
+}
+
+/* ABOUT PAGE STYLING*/
+
+#aboutContainer h1 {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: Courier, monospace;
+}
+
+#aboutContainer p {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+/* CONTACT PAGE STYLING*/
+
+#formContainer {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#formContainer h1 {
+    margin-top: 50px; 
+    text-align: center;
+    text-transform: lowercase;
+    font-family: Courier, monospace;
+}
+
+form {
+    margin-top: 50px; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 0 0 20px;
+    border: solid 1px #454545;
+    border-top: none;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #777;
+    font-family: Courier, monospace;
+}
+
+textarea {
+    height: 100px;
+    resize: both
+}
+
+label {
+    font-size: 16px;
+    text-transform: lowercase;
+    display: block;
+    width: 50.4%;
+    padding: 2%;
+    color: white;
+}
+
+input[type="submit"] {
+    background: #f8fa6a;
+    height: 40px;
+    border: solid 1px #777;
+    padding: 0 40px;
+    color: black;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type="submit"]:active{
+    border-color: #111;
+    outline-color: red;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
